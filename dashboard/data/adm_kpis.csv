@@ -1,0 +1,7 @@
+metric,value
+Applicants,400
+Admitted,31.8%
+Rank 1 admit rate,54.1%
+Rank 4 admit rate,17.9%
+Test ROC-AUC,0.67
+Recall at 0.40,78%

@@ -26,6 +26,14 @@ A transparent logistic-regression analysis of graduate admissions (400 applicant
 
 ![Precision and recall by threshold](images/threshold_tradeoff.png)
 
+## Interactive dashboard
+
+[![Tableau dashboard](images/tableau_dashboard.jpg)](https://public.tableau.com/app/profile/oluwatoyin.akadiri6432/viz/Student_Admission_Dashboard_17935487735240/StudentAdmission)
+
+**[Open the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/oluwatoyin.akadiri6432/viz/Student_Admission_Dashboard_17935487735240/StudentAdmission)**
+
+The packaged workbook is [`dashboard/Student_Admission_Dashboard.twbx`](dashboard/Student_Admission_Dashboard.twbx). [`dashboard/export_dashboard_data.py`](dashboard/export_dashboard_data.py) rebuilds the dashboard tables in `dashboard/data/` from this project's data and code.
+
 ## Fairness and limitations
 
 Institution prestige can encode socioeconomic advantage; a model trained on past decisions would reproduce that bias. It should support, never replace, human review, with errors audited across groups. All predictors are known at application time, so there is no outcome leakage. This is a 400-row teaching dataset.
